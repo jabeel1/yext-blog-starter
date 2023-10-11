@@ -1,4 +1,4 @@
-import { SitesHttpRequest, HttpFunction, SitesHttpResponse } from "@yext/pages/*"
+import { SitesHttpRequest, SitesHttpResponse } from "@yext/pages"
 
 export default (req : SitesHttpRequest) : SitesHttpResponse => {
     return {
